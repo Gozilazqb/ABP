@@ -6,8 +6,8 @@ import os
 import random
 import string
 from nltk.tokenize import word_tokenize
-from keras.preprocessing.text import Tokenizer, text_to_word_sequence
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer, text_to_word_sequence
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
 import torch
 import torch.nn.functional as F
